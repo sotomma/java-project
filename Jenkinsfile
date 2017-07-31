@@ -39,7 +39,7 @@ pipeline {
     stage ("Running on CentOS") {
 
      agent {
-	label 'centOS'
+	label 'CentOS'
 	}
 
 	steps {
