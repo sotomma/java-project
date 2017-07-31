@@ -43,7 +43,7 @@ pipeline {
 	}
 
 	steps {
-	 sh "wget http://sotomma1.mylabserver.com/rectangles/all/rectange_${env.BUILD_NUMBER}.jar"
+	 sh "wget http://sotomma1.mylabserver.com/rectangles/all/rectangle_${env.BUILD_NUMBER}.jar"
 	 sh "java -jar rectangle_${env.BUILD_NUMBER}.jari 3 4"
 	}
 
