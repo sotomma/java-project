@@ -25,8 +25,10 @@ pipeline {
     
 	steps {
 	  sh "cp dist/rectangle_${env.BUILD_NUMBER}.jar /va/www7html/rectangles/all"
+       }
+    }
 
-   }
+
 
   }
 
